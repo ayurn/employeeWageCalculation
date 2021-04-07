@@ -18,3 +18,10 @@ wagePerDay=$(( 20 * 8))
 
 echo "daily employee wages = $wagePerDay"
 
+echo "calculate Part time Employee & wage"
+
+partTimeHoursPerDay=4
+
+PartTimeWagePerDay=$(( $wagePerHour * $partTimeHoursPerDay ))
+
+echo "Part Time employee daily wages = $PartTimeWagePerDay"
